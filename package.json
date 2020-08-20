@@ -1,0 +1,16 @@
+{
+  "name": "hypercast-custom-template",
+  "version": "1.0.0",
+  "description": "Custom template for Hypercast",
+  "scripts": {
+    "build": "posthtml ./src/index.html -u posthtml-inline-assets -o ./template.html"
+  },
+  "author": "Simon Brix (@br11x)",
+  "license": "MIT",
+  "devDependencies": {
+    "posthtml": "^0.13.2",
+    "posthtml-cli": "^0.7.5",
+    "posthtml-inline-assets": "^3.1.0",
+    "posthtml-minifier": "^0.1.0"
+  }
+}
